@@ -1,2 +1,10 @@
-echo 'Hello world! Im Bash' >> bash
-cat >> bash
+echo $1 $2 $3
+
+args=("$@")
+echo $@
+
+# Length of an array
+echo $#
+
+
+
